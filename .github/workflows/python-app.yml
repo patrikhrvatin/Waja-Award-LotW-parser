@@ -26,9 +26,9 @@ jobs:
         pip install -r requirements.txt
         pip install pyinstaller
 
-    - name: Build with PyInstaller
+- name: Build with PyInstaller
       run: |
-        pyinstaller --onefile --noconsole waja11en.py
+        pyinstaller --onefile --noconsole --hidden-import=pandas --hidden-import=openpyxl --hidden-import=openpyxl.styles --hidden-import=openpyxl.formatting.rule --hidden-import=openpyxl.utils waja11en.py
 
     - name: Upload binary to Release
       env:
