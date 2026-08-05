@@ -51,7 +51,11 @@ pip install -r requirements.txt
 python waja11en.py
 
 ```
-Generated reports:
+## 🚀 Example Output
+
+Here is what running the script looks like in practice when scanning a large ADIF log (over 105,000 records):
+
+```text
 C:\Users\9A5CW\Desktop\waja>waja11en.py
 [*] Starting scan of file 'lotwreport.adi'...
 [i] Read 25000 records...
@@ -86,9 +90,7 @@ C:\Users\9A5CW\Desktop\waja>waja11en.py
 ...
 -> 9-Band WAJA Status : 22 Prefectures completed on 9+ bands.
    Completed: 01 (Hokkaido), 03 (Iwate), 06 (Miyagi), 08 (Niigata), 10 (Tokyo),
-11 (Kanagawa), 12 (Chiba), 13 (Saitama), 14 (Ibaraki), 15 (Tochigi), 17 (Yamanas
-hi), 18 (Shizuoka), 20 (Aichi), 25 (Osaka), 27 (Hyogo), 28 (Toyama), 31 (Okayama
-), 32 (Shimane), 38 (Ehime), 40 (Fukuoka), 41 (Saga), 43 (Kumamoto)
+11 (Kanagawa), 12 (Chiba), 13 (Saitama), 14 (Ibaraki), 15 (Tochigi), 17 (Yamanashi), 18 (Shizuoka), 20 (Aichi), 25 (Osaka), 27 (Hyogo), 28 (Toyama), 31 (Okayama), 32 (Shimane), 38 (Ehime), 40 (Fukuoka), 41 (Saga), 43 (Kumamoto)
 -> Congratulations! You have worked all 47 prefectures at least once!
 -> Missing by band breakdown saved to 'missing_by_band.txt'
 -> Top active stations report saved to 'top_active_stations.txt'
