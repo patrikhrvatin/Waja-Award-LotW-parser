@@ -1,8 +1,4 @@
-Here is a short English guide and overview of what your script does, ready for your repository's `README.md` or a quick documentation file:
-
----
-
-# WAJA (Worked All Japan Award) Log Analyzer
+# WAJA (Worked All Japan Award) Log Analyzer - by 9A5CW and a help of AI
 
 A Python tool designed to parse ADIF log files (such as LoTW reports), analyze amateur radio contacts with Japan, track progress for the **WAJA (Worked All Japan)** award, and generate detailed reports and formatted Excel spreadsheets.
 
